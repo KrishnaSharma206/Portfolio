@@ -1,0 +1,97 @@
+body {
+    background-color: azure;
+    background-image: url(Images/myBG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: black;
+    font-size: larger;
+    border: 2px solid rgb(176, 190, 230);
+    padding: 30px;
+    margin: 50px;
+}
+a:link {
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+a:visited {
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+a:hover {
+    color: black;
+    background-color: green;
+    text-decoration: none;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+a:active {
+    color: black;
+    background-color: green;
+    text-decoration: none;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-self: center;
+}
+th, td {
+    background-color: azure;
+}
+table {
+    width: 80%;
+}
+th {
+    width: 10%;
+}
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+li {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li a {
+    display: block;
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: azure;
+}
+.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+.mycontainer div {
+    width: 33%;
+    float: left;
+}
